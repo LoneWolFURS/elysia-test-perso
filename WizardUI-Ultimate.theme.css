@@ -1,0 +1,75 @@
+/**
+* @name WizardUI - Ultimate
+* @author Purple Wizard#0984
+* @authorLink https://github.com/GoldenLys
+* @version BETA
+* @invite SBuYeHh
+* @description An amazing theme with full customization included, made with 💖 by Purple Wizard.
+* @website https://purplewizard.space/
+*/
+@import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css");
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/EvenMoreColors.css");
+
+/* This is an addon for the PurpleServerList addon which replaces the folders icons with letters.
+@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
+
+/* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord. 
+@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
+
+*,
+*:before,
+*:after {
+    /* MAIN VARIABLES */
+    --font: 'Marianne', 'emoji', sans-serif;
+    --Text: #F8F8F2;
+    --logo: url(https://goldenlys.github.io/WUITG/images/logos/3.gif);
+
+    /* THEME COLORS */
+    --Primary: rgb(104 76 255);
+    --text-link: var(--Primary);
+    --Highlighted: var(--Primary);
+    --MessageHover: var(--grey5);
+    --Unread: rgb(255 255 255 / 10%);
+    --Hover: rgb(104 76 255 / 35%);
+    --Selected: rgb(104 76 255 / 15%);
+
+    /* STATUS VARIABLES */
+    --Online: #8AFF80;
+    --Idle: #99FFEE;
+    --Unavailable: #FF9580;
+    --Offline: rgb(90, 95, 100);
+    --Streaming: #AA99FF;
+
+    /* BACKGROUNDS */
+    --background: #28323c;
+    --bg-titlebar: #13181a;
+    --bg-servers: var(--bg-ui);
+    --bg-sendmessage: var(--bg-ui);
+    --bg-ui: hsla(210,15%,12%,1);
+    --bg-chatbox: transparent;
+    --bg-members: var(--bg-ui);
+    --bg-chat-elements: var(--grey5);
+    --bg-settings: var(--bg-ui);
+    --bg-colorprofile: rgb(38 40 64 / 50%);
+
+   /* UI COLOR VARIABLES */
+   --grey: rgb(39 44 52);
+   --grey5: rgb(39 44 52 / 75%);
+   --darkgrey: rgb(16 18 26);
+   --darkgrey5: rgb(16 18 26 / 75%)
+
+    /* SERVER SETTINGS */
+    --ServerSize: 45px;
+    --ServerColumns: 1;
+    --ServerSpacing: 5px 0px 0px 5px;
+    --ServerPills: var(--Primary);
+    
+    /* ROUNDING */
+    --Rounding: 5px;
+    --StatusRounding: 4.5;
+
+    --Watermark: "Ultimate Edition";
+}
